@@ -6,31 +6,34 @@ int weRomPin = 2;
 int oeRomPin = 3;   
 int RomAddr  = 0;
 int RomData  = 0;
-int RomDataPins[8]={4,5,6,7,8,9,10,11}; // ROM D7-D0
+int RomDataPins[8]={4,5,6,7,8,9,10,11}; // ROM D7-D0 
 
-
-
+/////////////////// Stuff for the 8 bit DisplayRegister//////////////////
 //A12-A8: MDLDL 
 int DisplayDigitPosition = 0; 
-int DisplayControlAddr[8] = {10,2,8,0,26,18,24,16};
-int DisplayDigitsArray[16] = {
-//E D DP C G B F A
-0b11010111,
-0b00010100,
-0b11001101,
-0b01011101,
-0b00011110,
-0b01011011,
-0b11011011,
-0b00010101,
-0b11011111,
-0b01011111,
-0b10011111,
-0b11011010,
-0b11000011,
-0b11011100,
-0b11001011,
-0b10001011};
+int DisplayControlAddr[8] = {10,2,8,0,26,18,24,16}; 
+int DisplayDigitsArray[16] = { 
+  //E D DP C G B F A  
+  0b11010111,
+  0b00010100,
+  0b11001101,
+  0b01011101,
+  0b00011110,
+  0b01011011,
+  0b11011011,
+  0b00010101,
+  0b11011111,
+  0b01011111,
+  0b10011111,
+  0b11011010,
+  0b11000011,
+  0b11011100,
+  0b11001011,
+  0b10001011};
+
+
+
+
 
 
 
@@ -48,11 +51,6 @@ void DisplayRegisterProgram(){
         WriteRomData(0b00000000, DisplayControlAddr[n]*256 + i);
         n--;
     }}
-
-
-
-
-    
 
       for(int i=0;i<128;i++){
         int nr=i;
@@ -73,9 +71,6 @@ void DisplayRegisterProgram(){
       WriteRomData(DisplayDigitsArray[0], DisplayControlAddr[5]*256 + 128);
       WriteRomData(0b00001000, DisplayControlAddr[4]*256 + 128);
 
-    
-
-
       for(int i=256;i>128;i--){
         int nr=256-i;
         int n=7;
@@ -90,17 +85,8 @@ void DisplayRegisterProgram(){
         }
 
           WriteRomData(0b00001000, DisplayControlAddr[4]*256 + i);//0b00001000   minus
-}
-
-
-
-
-
-
-
-
-}
-
+}}
+/////////////////////////////////////////////////////////////////////////
 
 
 int BaseConverter(int Base1, int Base2, int nr1){
@@ -203,14 +189,10 @@ void setup() {
   digitalWrite(oePin,    LOW);
   Serial.begin(9600);
 
-
-  DisplayRegisterProgram();
-
 }
 
 void loop() 
 {
-
 
 }
 
