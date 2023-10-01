@@ -9,6 +9,9 @@ int RomData  = 0;
 int RomDataPins[8]={4,5,6,7,8,9,10,11}; // ROM D7-D0 
 
 /////////////////// Stuff for the 8 bit DisplayRegister//////////////////
+//
+//  ** IF NOT USED, IT CAN BE DELETED
+//
 //A12-A8: MDLDL 
 int DisplayDigitPosition = 0; 
 int DisplayControlAddr[8] = {10,2,8,0,26,18,24,16}; 
@@ -88,7 +91,7 @@ void DisplayRegisterProgram(){
 }}
 /////////////////////////////////////////////////////////////////////////
 
-
+// Not Used yet
 int BaseConverter(int Base1, int Base2, int nr1){
   int nr2=0, p=1;
   if(Base1<Base2)// from Base1 var value to Base10
@@ -97,11 +100,11 @@ int BaseConverter(int Base1, int Base2, int nr1){
       nr1/=10;
       p*=Base1;}
   return nr2;}
+
+
 void SetRomAddr(int nr){
   digitalWrite(latchPin, LOW);
   shiftOut(dataPin, clockPin, MSBFIRST, nr/256); //Shift_Q0 == ROM_A0
-  digitalWrite(latchPin, HIGH);
-  digitalWrite(latchPin, LOW);
   shiftOut(dataPin, clockPin, MSBFIRST, nr%256); //Shift_Q0 == ROM_A0
   digitalWrite(latchPin, HIGH);}
 
