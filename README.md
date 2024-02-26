@@ -3,10 +3,10 @@
 ## Description:
 This is an EEPROM programmer made to program the AT28C64 and AT28C256 EEPROMS with arduino. The programmer was made with the purpose to program the AT28C64 EEPROM for the [display register](https://github.com/Tonikiller10000/8BitProcessor/tree/main/DisplayRegister) of the 8 bit processor and the AT28C256 EEPROM for the [W65C02](https://github.com/Tonikiller10000/W65C02Computer) 8 bit computer.
 
-## Version 1.0
+### Version V1.0
 The [EEPROM Programmer V1.0](https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V1.0/EEPROM_PROGRAMER_V1.0_Pictures/20230729_093718.jpg) has only 2 smd shift registers used with and arduino on the breadboard to set the eeprom address at programming. With this programmer, the shift register connections ware already made so you don`t have to place 2 shift registers on breadboard, but because of the pins placement, it needed to be connected with jumper wires.
 
-## Version 2.0
+### Version V2.0
 The EEPROM Programmer V2.0 has 2 dip shift registers for an easy to build design. Also for an easier and faster way to program the EEPROMS, the ZIF socket was added witch also adds an cool design. This design needs dirrect connection of the 16 pins including 2 power pins, dirrectly to the arduino. 
 
 <table>
@@ -32,7 +32,7 @@ The EEPROM Programmer V2.0 has 2 dip shift registers for an easy to build design
 </table>
 
 
-## Version 3.0
+### Version V3.0
 This design is an plug and play version. It is an arduino shield, with some extra power, pins and 4 smd dip switches with one power switch and 8 modes to program the eeprom on the go, without the need of an computer.
 <table>
   <tr>
@@ -42,7 +42,7 @@ This design is an plug and play version. It is an arduino shield, with some extr
   </tr>
 </table>
 
-### How to use:
+## How to use:
 - (*) make programs for the switches in the arduinoIDE (max 8);
 - connect a battery;
 - turn the power of the shield down;
