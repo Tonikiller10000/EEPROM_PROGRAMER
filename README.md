@@ -44,17 +44,16 @@ This design is an plug and play version. It is an arduino shield, with some extr
 
 <table>
   <tr>
-    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V3.0/EEPROM_PROGRAMER_V3.0_Pictures/ee32.png" width=400 height=300 ></td>
-    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V3.0/EEPROM_PROGRAMER_V3.0_Pictures/ee31.png" width=400 height=300 ></td>
-    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V3.0/EEPROM_PROGRAMER_V3.0_Pictures/ee33.png" width=400 height=300 ></td>
+    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V3.0/EEPROM_PROGRAMER_V3.0_Pictures/ee32.png" width=300 height=200 ></td>
+    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V3.0/EEPROM_PROGRAMER_V3.0_Pictures/ee31.png" width=300 height=200 ></td>
+    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V3.0/EEPROM_PROGRAMER_V3.0_Pictures/ee33.png" width=300 height=200 ></td>
   </tr>
 </table>
 
 
 
 ### Programming:
-[This](https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V2.0/EEPROM_PROGRAMER_V2.0.ino) code is made for the EEPROM V1.0 and V2.0. The version 3.0 has permanent pins seted. ...
-
+[This](https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V2.0/EEPROM_PROGRAMER_V2.0.ino) code is made for the EEPROM V1.0 and V2.0. The software for the version 3.0 has permanent pins and  will be made when the board arrives.
 
 ### Links:
 74HC595 datasheet (shift register): https://datasheetspdf.com/pdf-file/446162/ONSemiconductor/74HC595/1
