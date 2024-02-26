@@ -5,9 +5,48 @@ This is an EEPROM programmer made to program the AT28C64 and AT28C256 EEPROMS wi
 
 
 
+<table>
+  <tr>
+    <td>Version 1.0
+The EEPROM Programmer V1.0 has only 2 smd shift registers used with and arduino on the breadboard to set the eeprom address at programming. With this programmer, the shift register connections ware already made so you don`t have to place 2 shift registers on breadboard, but because of the pins placement, it needed to be connected with jumper wires.
+    </td>
+    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V1.0/EEPROM_PROGRAMER_V1.0_Pictures/20230729_093718.jpg"  height = 400 ></td>
+  </tr>
+  <tr>
+<td>Version 2.0
+The EEPROM Programmer V2.0 has 2 dip shift registers for an easy to build design. Also for an easier and faster way to program the EEPROMS, the ZIF socket was added witch also adds an cool design. This design needs dirrect connection of the 16 pins including 2 power pins, dirrectly to the arduino. 
+
+### Pinout
+- D0-D7     : Data pins
+
+- CLK       : Shift Register CLK pin
+- LATCH     : Shift Register Latch pin
+- OE        : Shift Register OE pin
+- DataIn    : Shift Register Serial Data In pin
+
+- WE        : EEPROM Write Enable pin
+- OE        : EEPROM Output Enable pin
+- GND       : arduino GND
+- VCC       : arduino 5V
+    </td>
+    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V2.0/EEPROM_PROGRAMER_V2.0_Pictures/EE2.jpg"  height = 400 width= 400 ></td>
+  </tr>
+</table>
+
+
 
 Version 3.0
 <table>
+  <tr>
+    This design is an plug and play version. It is an arduino shield, with some extra power, pins and 4 smd dip switches with one power switch and 8 modes to program the eeprom on the go, without the need of an computer:
+    - *program make programs for every switch in the arduino(max 8);
+    - connect a battery;
+    - turn the power of the shield down;
+    - insert the EEPROM;
+    - set the switches for the data you want to program on it;
+    - press the reset button while turning the shield power on;   
+    - release the reset button and let the EEPROM be programed (may take a while).
+  </tr>
   <tr>
     <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V3.0/EEPROM_PROGRAMER_V3.0_Pictures/ee32.png"></td>
     <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V3.0/EEPROM_PROGRAMER_V3.0_Pictures/ee31.png"></td>
@@ -22,7 +61,7 @@ Version 3.0
     <td>Version 2.0</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V1.0/EEPROM_PROGRAMER_V1.0_Pictures/20230729_093718.jpg"  height = 400 width= 400 ></td>
+    <td><img src=""  height = 400 width= 400 ></td>
     <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V2.0/EEPROM_PROGRAMER_V2.0_Pictures/EE2.jpg"  height = 400 width= 400 ></td>
   </tr>
 </table>
