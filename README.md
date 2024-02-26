@@ -55,7 +55,7 @@ This design is an plug and play version. It is an arduino shield, with some extr
 ## Programming:
 [This](https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V2.0/EEPROM_PROGRAMER_V2.0.ino) code is made for the EEPROM V1.0 and V2.0. The software for the version 3.0 has permanent pins and  will be made when the board arrives.
 
-### Links:
+## Links:
 74HC595 datasheet (shift register): https://datasheetspdf.com/pdf-file/446162/ONSemiconductor/74HC595/1
 AT28C256 datasheet (32K EEPROM): https://ww1.microchip.com/downloads/en/DeviceDoc/doc0006.pdf
 AT28C64 datasheet (8K EEPROM): https://ww1.microchip.com/downloads/en/devicedoc/doc0001h.pdf
