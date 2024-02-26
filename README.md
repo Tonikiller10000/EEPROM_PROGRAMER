@@ -33,6 +33,7 @@ The EEPROM Programmer V2.0 has 2 dip shift registers for an easy to build design
 
 
 ### Version 3.0
+This design is an plug and play version. It is an arduino shield, with some extra power, pins and 4 smd dip switches with one power switch and 8 modes to program the eeprom on the go, without the need of an computer.
 <table>
   <tr>
     <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V3.0/EEPROM_PROGRAMER_V3.0_Pictures/ee32.png" width=300 height=200 ></td>
@@ -41,7 +42,7 @@ The EEPROM Programmer V2.0 has 2 dip shift registers for an easy to build design
   </tr>
 </table>
 
-This design is an plug and play version. It is an arduino shield, with some extra power, pins and 4 smd dip switches with one power switch and 8 modes to program the eeprom on the go, without the need of an computer:
+How to use:
 - (*) make programs for the switches in the arduinoIDE (max 8);
 - connect a battery;
 - turn the power of the shield down;
