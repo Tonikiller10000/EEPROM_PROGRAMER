@@ -23,6 +23,7 @@ The EEPROM Programmer V2.0 has 2 dip shift registers for an easy to build design
 <table>
   <tr>
     <td>
+    
 ### Pinout
 - EEPROM Data pins
     - D0-D7     : Data EEPROM IO pins
