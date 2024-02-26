@@ -10,19 +10,19 @@ This is an EEPROM programmer made to program the AT28C64 and AT28C256 EEPROMS wi
     <td>Version 1.0
 The EEPROM Programmer V1.0 has only 2 smd shift registers used with and arduino on the breadboard to set the eeprom address at programming. With this programmer, the shift register connections ware already made so you don`t have to place 2 shift registers on breadboard, but because of the pins placement, it needed to be connected with jumper wires.
     </td>
-    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V1.0/EEPROM_PROGRAMER_V1.0_Pictures/20230729_093718.jpg"  height = 400 ></td>
+    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V1.0/EEPROM_PROGRAMER_V1.0_Pictures/20230729_093718.jpg" width=200 height = 400 ></td>
   </tr>
   <tr>
-
+</table>
 
 
 
 Version 2.0
 The EEPROM Programmer V2.0 has 2 dip shift registers for an easy to build design. Also for an easier and faster way to program the EEPROMS, the ZIF socket was added witch also adds an cool design. This design needs dirrect connection of the 16 pins including 2 power pins, dirrectly to the arduino. 
+
 <table>
   <tr>
     <td>
-
 ### Pinout
 - EEPROM Data pins
     - D0-D7     : Data EEPROM IO pins
@@ -37,7 +37,7 @@ The EEPROM Programmer V2.0 has 2 dip shift registers for an easy to build design
     - GND       : arduino GND
     - VCC       : arduino 5V
     </td>
-    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V2.0/EEPROM_PROGRAMER_V2.0_Pictures/EE2.jpg" width= 500></td>
+    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V2.0/EEPROM_PROGRAMER_V2.0_Pictures/EE2.jpg" width=400 height=300 ></td>
   </tr>
 </table>
 
