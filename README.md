@@ -17,13 +17,13 @@ The EEPROM Programmer V1.0 has only 2 smd shift registers used with and arduino 
 
 
 
-Version 2.0
+### Version 2.0
 The EEPROM Programmer V2.0 has 2 dip shift registers for an easy to build design. Also for an easier and faster way to program the EEPROMS, the ZIF socket was added witch also adds an cool design. This design needs dirrect connection of the 16 pins including 2 power pins, dirrectly to the arduino. 
 
 <table>
   <tr>
     <td>
-    
+
 ### Pinout
 - EEPROM Data pins
     - D0-D7     : Data EEPROM IO pins
@@ -38,7 +38,7 @@ The EEPROM Programmer V2.0 has 2 dip shift registers for an easy to build design
     - GND       : arduino GND
     - VCC       : arduino 5V
     </td>
-    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V2.0/EEPROM_PROGRAMER_V2.0_Pictures/EE2.jpg" width=400 height=300 ></td>
+    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V2.0/EEPROM_PROGRAMER_V2.0_Pictures/EE2.jpg" width=300 height=400 ></td>
   </tr>
 </table>
 
