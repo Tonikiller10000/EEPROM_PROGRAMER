@@ -34,7 +34,7 @@ The EEPROM Programmer V2.0 has 2 dip shift registers for an easy to build design
 
 ### Version 3.0
 This design is an plug and play version. It is an arduino shield, with some extra power, pins and 4 smd dip switches with one power switch and 8 modes to program the eeprom on the go, without the need of an computer:
-- *program make programs for every switch in the arduino(max 8);
+- (*) make programs for the switches in the arduinoIDE (max 8);
 - connect a battery;
 - turn the power of the shield down;
 - insert the EEPROM;
@@ -44,9 +44,9 @@ This design is an plug and play version. It is an arduino shield, with some extr
 
 <table>
   <tr>
-    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V3.0/EEPROM_PROGRAMER_V3.0_Pictures/ee32.png" width=300 height=300 ></td>
-    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V3.0/EEPROM_PROGRAMER_V3.0_Pictures/ee31.png" width=300 height=300 ></td>
-    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V3.0/EEPROM_PROGRAMER_V3.0_Pictures/ee33.png" width=300 height=300 ></td>
+    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V3.0/EEPROM_PROGRAMER_V3.0_Pictures/ee32.png" width=400 height=300 ></td>
+    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V3.0/EEPROM_PROGRAMER_V3.0_Pictures/ee31.png" width=400 height=300 ></td>
+    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V3.0/EEPROM_PROGRAMER_V3.0_Pictures/ee33.png" width=400 height=300 ></td>
   </tr>
 </table>
 
