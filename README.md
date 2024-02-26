@@ -12,7 +12,7 @@ The EEPROM Programmer V1.0 has only 2 smd shift registers used with and arduino 
     </td>
     <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V1.0/EEPROM_PROGRAMER_V1.0_Pictures/20230729_093718.jpg" width=200 height = 400 ></td>
   </tr>
-  <tr>
+
 </table>
 
 
