@@ -6,20 +6,6 @@ This is an EEPROM programmer made to program the AT28C64 and AT28C256 EEPROMS wi
 
 
 
-
-
-
-<table>
-  <tr>
-    <td>Version 1.0</td>
-    <td>Version 2.0</td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V1.0/EEPROM_PROGRAMER_V1.0_Pictures/20230729_093718.jpg"></td>
-    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V2.0/EEPROM_PROGRAMER_V2.0_Pictures/EE2.jpg"></td>
-  </tr>
-</table>
-
 Version 3.0
 <table>
   <tr>
@@ -30,10 +16,26 @@ Version 3.0
 </table>
 
 
+<table>
+  <tr>
+    <td>Version 1.0</td>
+    <td>Version 2.0</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V1.0/EEPROM_PROGRAMER_V1.0_Pictures/20230729_093718.jpg"  height = 400 width= 400 ></td>
+    <td><img src="https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V2.0/EEPROM_PROGRAMER_V2.0_Pictures/EE2.jpg"  height = 400 width= 400 ></td>
+  </tr>
+</table>
+
+
+
+
 ### Programming:
 [This](https://github.com/Tonikiller10000/EEPROM_PROGRAMER/blob/main/EEPROM_PROGRAMER_V2.0/EEPROM_PROGRAMER_V2.0.ino) code is made for the EEPROM V1.0 and V2.0. The version 3.0 has permanent pins seted. ...
 
 
 ### Links:
 74HC595 datasheet (shift register): https://datasheetspdf.com/pdf-file/446162/ONSemiconductor/74HC595/1
+AT28C256 datasheet (32K EEPROM): https://ww1.microchip.com/downloads/en/DeviceDoc/doc0006.pdf
+AT28C64 datasheet (8K EEPROM): https://ww1.microchip.com/downloads/en/devicedoc/doc0001h.pdf
 
